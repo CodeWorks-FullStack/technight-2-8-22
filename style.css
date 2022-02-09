@@ -1,0 +1,68 @@
+
+body {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex-grow: 1;
+}
+
+
+
+.navbar-colors {
+  background-color: #0A1833;
+  color: white;
+  padding: .25em;
+}
+
+.display-flex {
+  display: flex;
+}
+
+h4 {
+  margin: 0;
+}
+
+.logo {
+  height: 1.5em;
+  padding-right: .5em;
+}
+
+
+.hero-img {
+  background-image: url('/img/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+}
+
+
+.bg-tan {
+  background-color: #F8F0E5;
+}
+
+.bg-tan-opaque {
+  background-color: #f8f0e573;
+}
+
+.product-img {
+  max-height: 300px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 3px grey;
+}
+
+header h4 {
+  font-family: 'Festive', cursive;
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.25);
+}
