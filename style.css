@@ -48,7 +48,8 @@ h4 {
 }
 
 .product-img {
-  max-height: 300px;
+  height: 150px;
+  object-fit: contain;
 }
 
 .text-shadow {
@@ -65,4 +66,10 @@ i {
 
 i:hover {
   transform: scale(1.25);
+}
+
+
+.out-of-stock{
+  filter: grayscale(1);
+  cursor: not-allowed;
 }
